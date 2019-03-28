@@ -45,6 +45,7 @@ ELSE IF "tahun" % 4 ==0 && "tahun" % 100 == 0 && "tahun" %400 == 1
 DO "tahun kabisat"
 ELSE 
 DO "bukan tahun kabisat"
+END IF
 
 3. Laundry Day
 
