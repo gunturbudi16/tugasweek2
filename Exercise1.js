@@ -77,3 +77,4 @@ IF "remainder" equals to 0
   DISPLAY "menghukum siswa/siswi"
 ELSE
   DISPLAY "memuji siswa/siswi"
+END IF

@@ -1,6 +1,12 @@
-function konversiMenit(menit) {
+function konversiMenit(detik) {
     // you can only write your code here!
-    return Math.round(menit/60) + " :" + menit%60;
+    var menit1 = Math.floor(detik/60);
+    var detik1 = detik%60;
+    if(detik1 < 10 && detik1 >=0){
+      return menit1 +":0" + detik1; 
+    }else{
+      return menit1 + ":" + detik1;
+    }
   }
   
   // TEST CASES

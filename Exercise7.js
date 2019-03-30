@@ -20,4 +20,4 @@ var row = 4
      hasil +="*"
    }
    console.log(hasil);
- }
+ };
