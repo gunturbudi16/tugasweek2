@@ -2,7 +2,7 @@ var tanggal = 0; // assign nilai variabel tanggal disini! (dengan angka antara 1
 var tahun= 1995; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 var bulan= 1 ;// assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 
-  if(typeof tanggal !== "number"){
+  if(typeof tanggal !== "number"||typeof bulan !== "number"||typeof tahun !== "number"){
     console.log("Please input number in input");
   }
 
